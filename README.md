@@ -101,7 +101,7 @@
 ├── hooks
     ├── data (fetch data > update store > side effect > return data)
         ├── posts
-            ├── usePosts.data.ts ('use' hook prefix, '.data.ts' as suffix)
+            ├── usePosts.data.ts ("use" as prefix - descriptive name - ".data.ts" as suffix) 
             ├── useUpdatePost.data.ts
             ├── index.ts (export all hooks)
         ├── users
