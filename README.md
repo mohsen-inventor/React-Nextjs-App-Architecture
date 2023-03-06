@@ -93,7 +93,7 @@
     ├── icons (Public icons)
     ├── fonts (Public text/icon fonts)
     ├── favicon.ico
-├── graphql (GraphQL)
+├── graphql (GraphQL api)
     ├── fragments
     ├── types
     ├── posts (queries, mutations)
@@ -101,12 +101,12 @@
 ├── hooks
     ├── data (fetch data > update store > side effect > return data)
         ├── posts
-            ├── usePosts.query.ts
-            ├── useUpdatePost.mutation.ts
+            ├── usePosts.data.ts ('use' hook prefix, '.data.ts' as suffix)
+            ├── useUpdatePost.data.ts
             ├── index.ts (export all hooks)
         ├── users
-            ├── useUsers.query.ts
-            ├── useUpdateUser.mutation.ts
+            ├── useUsers.data.ts
+            ├── useUpdateUser.data.ts
             ├── index.ts (export all hooks)
     ├── ui (ui/animation hooks)
         ├── useScrollPosition.ui.ts
