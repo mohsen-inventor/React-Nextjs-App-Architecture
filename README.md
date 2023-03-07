@@ -16,6 +16,7 @@
     ├── shared.scss (imported in each component)
     ├── global.scss (imported once in app root)
 ├── _components (all app components classified by category/feature)
+    ├── _shared (shared components that can't be classified in other any category)
     ├── _layout
             ├── _mobile (custom for ios/android if needed)
             ├── PageLayout (main layout includes header, footer)
